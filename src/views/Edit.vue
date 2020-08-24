@@ -1,7 +1,7 @@
 <template>
   <v-col>
     <Loader v-if="loading" />
-    <v-card class="elevation-8 mx-auto" max-width="750">
+    <v-card class="elevation-4 rounded-lg mx-auto" max-width="750">
       <v-card-title class="justify-center text-body-1 text-sm-h5"
         >Редактирование профиля</v-card-title
       >
@@ -44,7 +44,7 @@
               @click="updateInfo"
               :disabled="!valid"
               color="green darken-4 white--text"
-              class="ma-2"
+              class="ma-2 rounded-lg"
               width="220"
             >
               <v-icon left>mdi-content-save</v-icon>Сохранить
@@ -53,7 +53,7 @@
             <v-btn
               to="/"
               color="red darken-4 white--text"
-              class="ma-2"
+              class="ma-2 rounded-lg"
               width="220"
             >
               <v-icon left>mdi-arrow-left</v-icon>Назад

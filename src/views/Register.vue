@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" sm="8" md="4">
     <Loader v-if="loading" />
-    <v-card class="elevation-12">
+    <v-card class="elevation-4 rounded-lg">
       <v-card-title class="justify-center">Регистрация</v-card-title>
       <v-card-text>
         <v-form ref="form" v-model="valid" lazy-validation>
@@ -37,21 +37,24 @@
             required
             prepend-icon="mdi-lock"
           ></v-text-field>
-          <v-card-actions>
+          <v-card-actions class="mb-2">
             <v-btn
               :disabled="!valid"
               color="success"
-              class="mx-auto"
+              class="mx-auto rounded-lg"
               width="220px"
               @click="register"
               >Зарегистрироваться</v-btn
             >
           </v-card-actions>
-          <v-card-text class="text-center">
-            Есть аккаунт?
-            <router-link to="/login">Войти</router-link>
-          </v-card-text>
+
         </v-form>
+      </v-card-text>
+    </v-card>
+    <v-card class="mt-4 elevation-4 mx-auto rounded-lg" max-width="300">
+      <v-card-text class="text-center ">
+        Есть аккаунт?
+        <v-btn text to="/login" small class="rounded-lg">Войти</v-btn>
       </v-card-text>
     </v-card>
   </v-col>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto text-center text-sm-end" max-width="750">
+  <v-card class="elevation-4 mx-auto text-center text-sm-end rounded-lg" max-width="750">
     <v-card-title class="ml-6"> Профиль</v-card-title>
     <v-divider></v-divider>
     <v-list v-if="user" class="mx-6 mt-6">
@@ -16,7 +16,7 @@
       </v-list-item-group>
       <v-divider class="mt-6"></v-divider>
 
-      <v-btn to="/edit" class="ma-6 white--text" color="green darken-4">
+      <v-btn to="/edit" class="ma-6 white--text rounded-lg" color="green darken-4">
         <v-icon left>mdi-pencil</v-icon>Редактировать
       </v-btn>
     </v-list>
