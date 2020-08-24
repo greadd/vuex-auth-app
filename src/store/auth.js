@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://emphasoft-test-assignment.herokuapp.com/'
+const API_URL = 'https://emphasoft-test-assignment.herokuapp.com/'
 
 export default {
   state: {
