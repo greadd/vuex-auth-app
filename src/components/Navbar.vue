@@ -5,7 +5,7 @@
     <v-divider class="mx-6 white d-none d-sm-block" inset vertical></v-divider>
     <v-toolbar-title class="white--text d-none d-sm-block">{{ date }}</v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn color="white" class="rounded-lg" @click="logout"
+    <v-btn color="white"  class="rounded-lg" @click="logout"
       ><v-icon>mdi-logout</v-icon>Выйти</v-btn
     >
   </v-app-bar>

@@ -43,7 +43,7 @@
             <v-btn
               @click="updateInfo"
               :disabled="!valid"
-              color="green darken-4 white--text"
+              color="success"
               class="ma-2 rounded-lg"
               width="220"
             >
@@ -52,7 +52,7 @@
             <v-spacer></v-spacer>
             <v-btn
               to="/"
-              color="red darken-4 white--text"
+              color="error"
               class="ma-2 rounded-lg"
               width="220"
             >

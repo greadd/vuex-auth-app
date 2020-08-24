@@ -4,6 +4,7 @@
       <router-view />
     </component>
     <v-snackbar
+    class="rounded-xl"
       v-model="snackbar.showing"
       :timeout="2000"
       :color="snackbar.color"
