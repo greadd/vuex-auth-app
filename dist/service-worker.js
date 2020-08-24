@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.132fc7bc16660be4dc4b57c5579b2208.js"
+  "/precache-manifest.5b124c38a6d498808db84369fe806ae6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "emphasoft"});
