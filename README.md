@@ -1,5 +1,6 @@
 # Profile page app with auth (login + register)
-## DEMO: https://gracious-goldstine-ba0d73.netlify.app/
+## DEMO
+https://gracious-goldstine-ba0d73.netlify.app/
 
 ## Project setup
 ```
