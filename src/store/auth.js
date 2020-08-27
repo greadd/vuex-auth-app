@@ -47,7 +47,7 @@ export default {
         },
         {
           headers: {
-            Authorization: 'Token 91409365e795f2488d4035a896bf7d1dd210cd4b'
+            Authorization: 'Token 781bd9f1de084f4daa7ba2aa8a71a2eab855354e'
           }
         }
       )
